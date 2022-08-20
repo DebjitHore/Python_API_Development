@@ -70,7 +70,7 @@ async def delete_post(id :int):
         return Response(status_code=status.HTTP_204_NO_CONTENT)
 
 
-@app.put("/posts/{id}")
+@app.put("/posts/{id}", status_code=status.HTTP_201_CREATED)
 async def update_post(id : int, post: Post):
     index,postSingle= find_post(id)
     if not postSingle:
