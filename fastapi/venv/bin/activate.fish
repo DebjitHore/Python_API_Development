@@ -29,7 +29,7 @@ end
 # unset irrelevant variables
 deactivate nondestructive
 
-set -gx VIRTUAL_ENV "/Users/debjithore/Desktop/Python_API_Development/Python_API_Development/venv"
+set -gx VIRTUAL_ENV "/Users/debjithore/Desktop/Python_API_Development/Python_API_Development/FASTAPI/venv"
 
 set -gx _OLD_VIRTUAL_PATH $PATH
 set -gx PATH "$VIRTUAL_ENV/bin" $PATH
