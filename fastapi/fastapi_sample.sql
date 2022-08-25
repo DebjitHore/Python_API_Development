@@ -39,3 +39,5 @@ DELETE FROM "Products" WHERE "ID"= 11 RETURNING *;
 
 UPDATE "Products" SET "Name"= 'Flour Tortilla', "Price"= 40 WHERE "ID"= 28;
 
+UPDATE "Products" SET "is_sale"= true WHERE "ID"= 17 RETURNING *;
+
